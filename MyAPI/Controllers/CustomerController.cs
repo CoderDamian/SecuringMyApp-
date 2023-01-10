@@ -7,7 +7,7 @@ namespace MyAPI.Controllers
     [Route("api/[controller]")]
     public class CustomerController : ControllerBase
     {
-        [HttpGet, Authorize]
+        [HttpGet, Authorize(Roles = "Manager")]
         public IEnumerable<string> Get()
         {
             return new string[] { "John Doe", "Jane Doe" };
