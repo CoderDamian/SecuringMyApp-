@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspnetCore.Authentication.jwtBearer" Version="6.0.12" />
+    <PackageReference Include="oracle.entityframeworkcore" Version="7.21.8" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
   </ItemGroup>
 
